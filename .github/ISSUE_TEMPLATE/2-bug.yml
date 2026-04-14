@@ -40,7 +40,7 @@ body:
     id: acceptance-criteria
     attributes:
       label: Acceptance Criteria
-      description: List the specific requirements that must be met for this feature to be considered Done.
+      description: List the specific requirements that must be met for this bug report to be considered resolved.
       placeholder: |
         - [ ] Criteria 1
         - [ ] Criteria 2
