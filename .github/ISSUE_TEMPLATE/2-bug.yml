@@ -1,0 +1,56 @@
+name: Bug Report
+description: An unexpected problem or behavior
+type: Bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe the correct behavior.
+      placeholder: Product should be doing...
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: Describe the incorrect behavior.
+      placeholder: Product is doing...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the bug.
+      placeholder: |
+        1. Step 1
+        1. Step 2
+        1. Step 3
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List the specific requirements that must be met for this feature to be considered Done.
+      placeholder: |
+        - [ ] Criteria 1
+        - [ ] Criteria 2
+        - [ ] Criteria 3
+    validations:
+      required: false
+  - type: upload
+    id: attachments
+    attributes:
+      label: Attachments
+      description: Relevant files to attach.
+    validations:
+      required: false
